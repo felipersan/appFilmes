@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   },
   modal: {
     height: 400,
-    backgroundColor: '#c5c5c5',
+    backgroundColor: '#000',
 
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
@@ -51,13 +51,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 30,
-    color: '#000',
+    color: '#fff',
     marginTop: 25,
     marginBottom: 5,
   },
   textdescrição: {
     fontSize: 20,
-    color: '#000',
+    color: '#fff',
     marginLeft: 10,
     marginRight: 10,
     marginBottom: 10,
@@ -66,5 +66,6 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     marginRight: 10,
     fontSize: 15,
+    color: '#fff',
   },
 });

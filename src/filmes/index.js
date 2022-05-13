@@ -15,7 +15,7 @@ export default function Filmes(props) {
   const [visibleModal, setVisibleModal] = useState(false);
 
   return (
-    <View>
+    <View style={styles.princiapView}>
       <View style={styles.card}>
         <Image style={styles.image} source={{uri: props.data.foto}} />
         <Text style={styles.title}>{props.data.nome}</Text>
@@ -42,7 +42,7 @@ export default function Filmes(props) {
 const styles = StyleSheet.create({
   card: {
     margin: 15,
-    backgroundColor: '#1212',
+    backgroundColor: '#121212',
     width: 350,
     height: 350,
 
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   title: {
     paddingTop: 7,
     fontSize: 25,
-    color: '#121212',
+    color: '#fff',
     paddingLeft: 15,
   },
   viewbtn: {
@@ -72,5 +72,8 @@ const styles = StyleSheet.create({
   },
   textbtn: {
     color: '#fff',
+  },
+  princiapView: {
+    backgroundColor: '#000',
   },
 });
